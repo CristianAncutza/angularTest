@@ -8,6 +8,7 @@ import{ VideoJuegoComponent} from '../videojuego/videojuego.component';
 import { HomeComponent } from '../home/home.component';
 import { Zapatilla } from '../models/zapatilla';
 import {ExternoComponent} from '../externo/externo.component';
+import {ContactoComponent } from '../contacto/contacto.component';
 
 //array de rutas
 const appRoutes: Routes = [
@@ -16,6 +17,7 @@ const appRoutes: Routes = [
     {path:'videojuegos', component: VideoJuegoComponent},
     {path:'videojuegos/:nombre', component: VideoJuegoComponent},
     {path:'externo', component: ExternoComponent},
+    {path:'contacto', component: ContactoComponent},
     //ruta 404
     {path:'**' , component:HomeComponent}
 ];
